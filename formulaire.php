@@ -30,7 +30,6 @@
           <a class="active" href="formulaire.html">Formulaire</a>
           <a href="patho.html">Pathologies</a>
           <a href="contact.html">Contact</a>
-          <input type="text" placeholder="Search..">
         </div>                   
                   
         
@@ -209,3 +208,15 @@
         </div>
     </body>
 </html>
+
+
+<form method='POST' action='test.php'>
+Merci de cocher vos pathologies:<br>
+<input type="checkbox" name="pathologies[]" value="Meridien"> Meridien<br>
+<input type="checkbox" name="pathologies[]" value="Viscere"> Viscere<br>
+<input type="checkbox" name="pathologies[]" value="Luo"> Luo<br>
+<input type="checkbox" name="pathologies[]" value="MerveileuxVaisseaux"> MerveileuxVaisseaux<br>
+<input type="checkbox" name="pathologies[]" value="rouge"> JingJin<br>
+<input type="submit" name="exple2" value="Résultats">
+</form>
+
